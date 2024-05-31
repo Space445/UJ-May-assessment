@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.main {
+    display: flex;
+}
+
+.container {
+    width: 400px;
+    background-color: rgb(8, 134, 113);
+    padding: 1em;
+}
+
+.styled-hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    margin: 20px 0;
+}
+
+.styled-hr2 {
+    border: 0;
+    height: 1px;
+    background: black;
+    margin: 20px 0;
+}
+
+.title {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.title-1 {
+    text-decoration: underline;
+    color: black;
+}
+
+.personal-details,
+.contact-details,
+.skillsdetails,
+.tech,
+.qual-details {
+    margin-left: .5em;
+    color:#fff
+}
+
+.container2 {
+    padding-left: 2em;
+    width: 100%;
+}
+
+.param-text {
+    font-family: 'Arial Narrow', Arial;
+    font-size: 1.3em;
+}
+
+.achie-details {
+    margin-left: 2.5em;
+    color: black;
+}
+
+.achie-details p {
+    font-size: 1.3em;
+}
+
+.text-param,
+.ref-details {
+    padding-left: 2.5em;
+}
+
+.ref-details p {
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        display: block;
+    }
+    .container,
+    .container2 {
+        width: 90%;
+    }
+}

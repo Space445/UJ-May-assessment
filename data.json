@@ -1,38 +1,51 @@
 {
-    "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+    "personalDetails" : {
+        "title" : "Personal Details",
+        "fullName" : "Prince Chauke",
+        "Gender" : "Male"
     },
-    "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+
+    "contactDetails" : {
+        "title" : "Contact Details",
+        "email" : "prchauke44@gmail.com",
+        "phone" : "0682556981",
+        "linkedIn" : "https://www.linkedin.com/in/prince-chauke-84663421a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+
+    "skills" : {
+        "title" : "Skills",
+        "skill1" : "Prokon design software",
+        "skill2" : "AutoCad design software",
+        "skill3" : "Revit design software"
     },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
+
+    "TechSkills" : {
+        "title" : "Tech Skills",
+        "techSkill1" : "Prokon",
+        "techSkill2" : "AutoCad",
+        "techSkill3" : "Revit",
+        "techSkill4" : "Civil 3D"
+    },
+
+    "Qualification" : {
+        "title" : "Qualifications",
+        "qua1" : "BEng Tech Civil",
+        "qua2" : "BEng Tech Honours"
+    },
+
+    "Profile" : {
+        "title" : "Personal Profile",
+        "text" : "<p>Structural engineers are primarily concerned with designing and constructing buildings and structures that are safe and capable of withstanding the elements to which they will be exposed, as well as improving the structural integrity of existing buildings. The job is very closely related to that of civil engineer</p>"
+    },
+
+    "Achievements" : {
+        "header" : "Achievements",
+        "title": "<p>Employed permenatly as gradute engineer as at a big firm and I lead one of the major projects because one of the seniors was unavailable, I also deisgned one of the bridges used on site to make site accessible, I also manged the madibeng site during the pre liminary stages of the project as a young graduate:</p>",
+        "param": "<p>I was a young and hungry graduate adding value in the industry with fresh ideas</p>",
+        "ref-topic" : "<p>Reference<p/>",
+        "ref": "<p>✓ Prof Anne Fidle</p>",
+        "jobhistory": "<p>✓ Intern: WBHO Construction company</p>",
+        "ref1": "<p>✓ Professor: Ms Anne: 099 797 976</p>",
+        "ref2": "<p>✓ Structural Engineering Internship: Mr John Low</p>"
+    }
 }

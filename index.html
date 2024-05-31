@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="main">
+        <div class="panel-section">
+            <div class="container">
+                <hr class="styled-hr">
+                <h2 class="title">{{personalDetails.title}}</h2>
+                <div class="personal-details">
+                    <ul>
+                        <li>Name: {{personalDetails.fullName}}</li>
+                        <li>Gender: {{personalDetails.Gender}}</li>
+                    </ul>
+                </div>
+    
+                <br>
+                <hr class="styled-hr">
+                <h2 class="title">{{contactDetails.title}}</h2>
+                <div class="contact-details">
+                    <ul>
+                        <li>Email: {{contactDetails.email}}</li>
+                        <li>Phone: {{contactDetails.phone}}</li>
+                        <li>LinkedIn: <a style="color: white" href="https://www.linkedin.com/in/prince-chauke-84663421a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">{{contactDetails.linkedIn}}</a></li>
+                    </ul>                
+                </div>
+    
+                <br>
+                <hr class="styled-hr">
+                <h2 class="title">{{skills.title}}</h2>
+                <div class="skillsdetails">
+                    <ul>
+                        <li>{{skills.skill1}}</li>
+                        <li>{{skills.skill2}}</li>
+                        <li>{{skills.skill3}}</li>
+                    </ul>
+                </div>
+                <div class="tech">
+                    <h4>Tech Skills</h4>
+                    <div class="div">
+                        <ul>
+                            <li>{{TechSkills.techSkill1}}</li>
+                            <li>{{TechSkills.techSkill2}}</li>
+                            <li>{{TechSkills.techSkill3}}</li>
+                            <li>{{TechSkills.techSkill4}}</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <br>
+                <hr class="styled-hr">
+                <h2 class="title">{{Qualification.title}}</h2>
+                <div class="qual-details">
+                    <ul>
+                        <li>{{Qualification.qua1}}</li>
+                        <li>{{Qualification.qua2}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container2">
+            <hr class="styled-hr2">
+            <h2 class="title-1">{{Profile.title}}</h2>
+            <div class="param-text">
+                <p>{{{Profile.text}}}</p>
+            </div>
+
+            <hr class="styled-hr2">
+            <h2 class="title-1">{{Achievements.header}}</h2>
+            <div class="achie-details">
+                <ul>
+                    <li>{{{Achievements.title}}}</li>
+                </ul>
+                <div class="text-param">
+                    {{{Achievements.param}}}
+                </div>
+            </div>
+            <h2 class="title-1">{{{Achievements.ref-topic}}}</h2>
+            <div class="ref-details">   
+                <p>{{{Achievements.ref}}}</p>
+                <br>
+                <h4 style="font-size: 20px">Employment History</h4>
+                <p>{{{Achievements.jobhistory}}}</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
